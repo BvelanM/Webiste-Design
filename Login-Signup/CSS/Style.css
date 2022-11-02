@@ -1,0 +1,126 @@
+body {
+  background-image: url("../Media/MainBackground.jpg");
+  font-family: Arial;
+}
+h1 {
+  font-family: "SignPainter";
+  font-size: 70px;
+}
+.ul {
+  /* display: inline-block; */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  border-bottom: solid orange 1px;
+  margin-bottom: -1px;
+}
+a {
+  text-align: center;
+  font-family: "pricedown";
+  float: left;
+  font-size: 20px;
+  padding: 20px;
+  border-bottom: 0px;
+}
+.tol {
+  float: right;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: orange;
+  color: aliceblue;
+  transition: 0.2s;
+}
+a:active {
+  color: black;
+}
+
+a:visited:hover {
+  background-color: orange;
+}
+.regf {
+  border-radius: 4px;
+  margin: 17px;
+  background-color: white;
+  outline: solid grey 1px;
+}
+.reg {
+  font-family: "";
+  text-shadow: solid grey 1px;
+  padding-bottom: 30px;
+}
+input[type="text"],
+input[type="password"] {
+  border-radius: 10px;
+  padding: 2px;
+  outline: solid orange 2px;
+  border: 0px;
+  margin-left: 24px;
+  padding: 2.6px;
+  /* border: 1px; */
+  font-family: Arial;
+  letter-spacing: 0.5px;
+  text-shadow: 0.1px 0.1px black;
+}
+input[type="text"]:active,
+input[type="text"]:hover,
+input[type="password"]::backdrop,
+input[type="password"]:hover,
+input[type="text"]::backdrop {
+  outline: solid purple 2px;
+}
+label {
+  color: black;
+  font-family: "Arial";
+  text-shadow: 0.5px 0.5px black;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 38%;
+  padding: 3px 9px 5px 9px;
+}
+button {
+  font-family: "pricedown";
+  font-size: 130%;
+  background-color: orange;
+  /* letter-spacing: 0.5px; */
+  padding: 5px;
+  border: 0px;
+  margin-left: 47%;
+}
+button:hover {
+  background-color: purple;
+  overflow: hidden;
+  color: white;
+  transition: 0.2s;
+}
+/* .log input[type="text"],.log input[type="password"]{
+  border-radius: 10px;
+  padding: 2px;
+  outline: solid orange 2px;
+  border: 0px;
+  margin-left:40%;
+  font-family: Arial;
+  font-size:large ;
+}
+.log input[type="text"]:active,.log input[type="text"]:hover,.log input[type="password"]::backdrop,.log input[type="password"]:hover,input[type="text"]::backdrop{
+  outline: solid purple 2px;
+} */
+.log button {
+  letter-spacing: 0.05px;
+}
+input[type="checkbox"] {
+  margin-left: 39%;
+}
+input[type="checkbox"]:hover {
+  margin-left: 39%;
+  border: solid 2px purple;
+}
